@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script src="form.js"></script>
+
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -83,54 +85,44 @@
                                               </div>  
                                               <input type="submit" value="Submit" id="input-submit">
                                             </form>
-                                            <form method="GET" action="mailto:mbaseball1@gmail.com" enctype="text/plain">
-                                                <div>Subject</div>
-                                                <input type="text" name="subject" />
-                                            
-                                                <div>Name</div>
-                                                <input name="Name" />
-                                            
-                                                <div>E-Mail</div>
-                                                <input name="E-Mail Address" />
-                                            
-                                                <div>Message</div>
-                                                <textarea name="Message"></textarea>
-                                            
-                                                <br/>
-                                                <input type="submit" value="Send" />
-                                            
-                                                <input type="hidden" name="body" />
-                                            </form>
-                                            
-                                            <script>
-                                               var form = document.getElementsByTagName('form')[0];
-                                               form.addEventListener('submit',contact,false);
-                                               function contact(e) {
-                                                  // Prevent Default Form Submission
-                                                  e.preventDefault();
-                                            
-                                                  var target = e.target || e.srcElement;
-                                                  var i = 0;
-                                                  var message = '';
-                                            
-                                                  // Loop Through All Input Fields
-                                                  for(i = 0; i < target.length; ++i) {
-                                                     // Check to make sure it's a value. Don't need to include Buttons
-                                                     if(target[i].type != 'text' && target[i].type != 'textarea') {
-                                                            // Skip to next input since this one doesn't match our rules
-                                                        continue;
-                                                     }
-                                            
-                                                     // Add Input Name and value followed by a line break
-                                                     message += target[i].name + ': ' + target[i].value + "\r\n";
-                                                  }
-                                                  // Modify the hidden body input field that is required for the mailto: scheme
-                                                  target.elements["body"].value = message;
-                                            
-                                                  // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
-                                                  this.submit();
-                                               }
-                                            </script>
+                                            <!-- Form Started -->
+            <div class="container form-top">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-danger">
+                            <div class="panel-body">
+                                <form id="reused_form">
+                                    <div class="form-group">
+                                        <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                        <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                        <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                    </div>
+                                </form>
+                                <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                    <h4>
+                                        Error
+                                    </h4>
+                                    Sorry there was an error sending your form. 
+                                </div>
+                                <div id="success_message" style="width:100%; height:100%; display:none; ">
+<h2>Success! Your Message was Sent Successfully.</h2>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Form Ended -->
 								</div>
 							</div>
 						</div>
