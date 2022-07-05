@@ -21,6 +21,12 @@ $validator->field('comments')->maxLength(6000);
 
 
 
-$pp->sendEmailTo('mbaseball1@gmail.com'); // ← Your email here
+//$pp->sendEmailTo('mbaseball1@gmail.com'); // ← Your email here
+$email_from=field('email');
+$visitor_email=field('email');
+$headers = "From: $email_from \r\n";
+
+  $headers .= "Reply-To: $visitor_email \r\n";
+mail('mbaseball1@gmail.com',field['name'],field('comments'),$headers);
 
 echo $pp->process($_POST);
