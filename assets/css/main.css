@@ -1920,7 +1920,7 @@ input, select, textarea {
 			background-color: #0D67B5;
 			background-color: rgba(13, 103, 181, 1);
 			border-radius: 8px;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
+			box-shadow: inset 0px 0px 0px 1px rgba(13, 103, 181, 0.851), inset 0px 2px 1px 0px rgba(13, 103, 181, 0.851);
 			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		}
 
