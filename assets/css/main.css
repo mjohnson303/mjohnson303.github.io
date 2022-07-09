@@ -1905,16 +1905,16 @@ input, select, textarea {
 	#header {
 		position: relative;
 		border-radius: 10px;
-		background: rgba(255, 255, 255, 0.1);
+		background: rgba(13, 103, 181, 1);
 		padding: 0.75em;
 		margin-bottom: 0;
 	}
 
 		#header .inner {
-			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
+			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(13, 103, 181, 1)), url("images/bg02.png");
+			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(13, 103, 181, 1)), url("images/bg02.png");
+			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(13, 103, 181, 1)), url("images/bg02.png");
+			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(13, 103, 181, 1)), url("images/bg02.png");
 			position: relative;
 			height: 5.5em;
 			background-color: #0D67B5;
