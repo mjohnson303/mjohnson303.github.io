@@ -1979,7 +1979,7 @@ input, select, textarea {
 	#copyright {
 		border-top: solid 1px;
 		border-color: #444;
-		border-color: rgba(255, 255, 255, 0.075);
+		border-color: rgba(255, 255, 255, 0.014);
 		text-align: center;
 		margin-top: 2em;
 		padding: 3em 0 4em 0;
