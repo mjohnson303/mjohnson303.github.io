@@ -1849,7 +1849,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		background: url("images/bg01.png"), url("../../images/scientia_header_color.png");
+		background: url("images/bg01.png"), url("../../images/scientia_header_color.webp");
 		background-position: top left, center center;
 		background-size: auto, cover;
 		padding: 3em 0;
