@@ -299,7 +299,7 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 20%;
 		}
 
 		.row > .off-3 {
@@ -323,7 +323,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 60%;
 		}
 
 		.row > .off-6 {
@@ -1539,7 +1539,7 @@ input, select, textarea {
 		font-size: 0.9em;
 		color: #696969;
 		float: left;
-		width: 6em;
+		width: 4em;
 	}
 
 	dl.contact dd {
