@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://scientiabevconsulting.com/</loc>
+      <loc>http://scientiabevconsulting.com/index.html</loc>
+   </url>
+   <url>
+      <loc>http://scientiabevconsulting.com/Contact.html</loc>
+   </url>
+   <url>
+      <loc>http://scientiabevconsulting.com/Services.html</loc>
+   </url>
+   <url>
+      <loc>http://scientiabevconsulting.com/About.html</loc>
    </url>
    <url>
       <loc>https://scientiabevconsulting.com/index.html</loc>
@@ -10,9 +19,18 @@
       <loc>https://scientiabevconsulting.com/Contact.html</loc>
    </url>
    <url>
+      <loc>https://scientiabevconsulting.com/Services.html</loc>
+   </url>
+   <url>
       <loc>https://scientiabevconsulting.com/About.html</loc>
    </url>
    <url>
-      <loc>https://scientiabevconsulting.com/Services.html</loc>
+      <loc>http://scientiabevconsulting.com</loc>
+   </url>
+   <url>
+      <loc>https://scientiabevconsulting.com</loc>
+   </url>
+   <url>
+      <loc>scientiabevconsulting.com</loc>
    </url>
 </urlset>
